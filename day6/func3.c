@@ -1,0 +1,26 @@
+#include<stdio.h>
+
+//fun dec
+// void sum();
+void sum(void);
+
+int main(){
+    sum();
+    return 0;
+}
+
+//fun def
+void sum(){
+    int a=10,b=20;
+    printf("the sum is %d",a+b);
+}
+
+
+
+
+
+
+
+// by using fun cal sum of n nat no:
+// 5
+// 1+2+3+4+5=15
